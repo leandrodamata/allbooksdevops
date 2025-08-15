@@ -1,6 +1,6 @@
-const { usuarioExiste, emailExiste } = require('../../services/userService');
+const { usuarioExiste, emailTeste } = require('../../services/userService');
 
-const { testeDB } = require('../../config/database');
+const { testesDB } = require('../../config/database');
 
 describe('Testando função emailExiste de userService', () => {
     it('deve retornar FALSE para email invalido', () => {
